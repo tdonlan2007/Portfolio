@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: black;
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .button {
   border-radius: 8px;
-  background-color: #000;
+  background-color:orange;
   color:white;
 
 }
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: black;
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: orange;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background:black;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #fff !important;
+  color: orange !important;
 }
 
 .info {
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #000;
+  color:black;
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -1370,21 +1370,21 @@ body {
 }
 
 .skillsHeader{
-	color: black;
-	font-family: Helvetica;
+	color:black;
+	font-family: sans-serif;
 	font-size: 50px;
 	margin-bottom: 40px;
 	margin-top: 10px;
 }
 
 .skillsTitles{
-	color: #676666;
+	color: black;
 	font-family: Helvetica;
 	font-size: 20px;
 }
 
 .skillsDesc{
-	color: #676666;
+	color: black;
 	font-family: Helvetica;
 	font-size: 13px;
 	display: block;
