@@ -15,8 +15,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #4d4d4d;
-  background: #fff;
+  color: black;
+  background: white;
 }
 
 #page {
@@ -86,8 +86,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .button {
   border-radius: 8px;
-  background-color:orange;
-  color:white;
+  background-color:orangered;
+  color:black;
 
 }
 
@@ -228,9 +228,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
 }
 
-#fh5co-features {
-  background: black;
-}
+/*#fh5co-features {
+  background:linear-gradient(red, yellow);
+}*/
 #fh5co-features h2 {
   color: orange;
 }
@@ -326,6 +326,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   width: 90%;
   float: left;
+  
 }
 @media screen and (max-width: 768px) {
   .info {
@@ -340,18 +341,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .info li:first-child {
   padding-top: 0;
+  
 }
 .info li .first-block {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: black
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  color:black;
 }
 
 .fh5co-social-icons {
@@ -398,7 +400,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
   color: #fff;
-  background: #2F3C4F;
+  background: black;
   padding: 10px 10px 2px 10px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -427,7 +429,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: black;
 }
 .fh5co-heading span {
   display: block;
@@ -596,7 +598,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: #bfbfbf;
+  color: black;
 }
 
 .timeline-body > p,
@@ -670,7 +672,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .progress-bar {
-  background-color: #2F3C4F;
+  background-color:black;
   height: 5px;
   display: block;
   box-shadow: none;
@@ -753,7 +755,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .work .desc span {
   display: block;
-  color: #999999;
+  color: black;
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -802,7 +804,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 #fh5co-started .btn {
   height: 54px;
@@ -815,8 +817,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .fh5co-blog {
+
   width: 100%;
   float: left;
   margin-bottom: 40px;
@@ -1267,10 +1269,14 @@ input[type="text"] {
 
 .row-pb-md {
   padding-bottom: 4em !important;
+ 
+  
 }
 
 .row-pb-sm {
   padding-bottom: 2em !important;
+
+  
 }
 
 .nopadding {
@@ -1365,7 +1371,7 @@ input[type="text"] {
 
 
 body {
-  background:white;
+  background:linear-gradient(red, yellow,orangered);
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -1394,6 +1400,18 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+button{
+  background-color: black;
+  color:orange;
+  
+}
+
+li{
+  color:black;
+}
+
+
 
 
 
